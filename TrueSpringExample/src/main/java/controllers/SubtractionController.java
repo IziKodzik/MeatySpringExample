@@ -18,7 +18,7 @@ public class SubtractionController {
         int result = subtracted0-subtracted1;
 
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("display.jsp");
+        mav.setViewName("display");
         mav.addObject("result",result);
 
         return mav;

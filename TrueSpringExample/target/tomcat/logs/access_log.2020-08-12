@@ -27,3 +27,9 @@
 0:0:0:0:0:0:0:1 - - [12/Aug/2020:04:15:45 +0200] "GET /example/add?input0=jd&input1=kurwe HTTP/1.1" 404 949 http-bio-8080-exec-2 1035
 0:0:0:0:0:0:0:1 - - [12/Aug/2020:04:16:53 +0200] "GET /example/subtract?input0=3&input1=2 HTTP/1.1" 200 172 http-bio-8080-exec-4 487
 0:0:0:0:0:0:0:1 - - [12/Aug/2020:04:17:48 +0200] "GET /example/subtract?input0=3&input1=2 HTTP/1.1" 200 205 http-bio-8080-exec-1 1389
+0:0:0:0:0:0:0:1 - - [12/Aug/2020:16:56:22 +0200] "GET /example HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [12/Aug/2020:16:56:23 +0200] "GET /example/ HTTP/1.1" 200 175 http-bio-8080-exec-3 55
+0:0:0:0:0:0:0:1 - - [12/Aug/2020:16:56:23 +0200] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [12/Aug/2020:16:56:29 +0200] "GET /example/subtract?input0=5&input1=2 HTTP/1.1" 200 205 http-bio-8080-exec-5 77
+0:0:0:0:0:0:0:1 - - [12/Aug/2020:17:00:45 +0200] "GET /example HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [12/Aug/2020:17:00:45 +0200] "GET /example/ HTTP/1.1" 404 949 http-bio-8080-exec-3 25

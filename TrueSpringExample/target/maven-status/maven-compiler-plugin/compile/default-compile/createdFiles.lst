@@ -1,1 +1,4 @@
+IziKodzikWebInitializer.class
 controllers\SubtractionController.class
+IzikodzikConfig.class
+services\SubtractionService.class
